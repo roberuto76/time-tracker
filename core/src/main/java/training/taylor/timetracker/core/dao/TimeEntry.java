@@ -13,10 +13,6 @@ public class TimeEntry {
     private float rate;
     private int time;
 
-    public String getDescription() {
-        return description;
-    }
-
     public void setDescription(String value) {
         this.description = value;
     }
