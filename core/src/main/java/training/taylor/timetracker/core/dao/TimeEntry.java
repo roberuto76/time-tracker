@@ -13,6 +13,22 @@ public class TimeEntry {
     private float rate;
     private int time;
 
+public float getRate() {
+    return rate;
+}
+
+public void setRate(float value) {
+    this.rate = value;
+}
+
+public int getTime() {
+    return time;
+}
+
+public void setTime(int value) {
+    this.time = value;
+}
+    
     @Override
     public String toString() {
         return "TimeEntry{" +
